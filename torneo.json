@@ -19,6 +19,7 @@
     { "nombre": "Grupo 2", "jugadores": ["santi", "adrian", "johan", "william"] }
   ],
   "partidos": [
+    { "fecha": "2026-11-17", "jugadores": ["santi", "johan"], "marcador": [6, 2] },
     { "fecha": "2026-11-19", "jugadores": ["pipe", "danilo"], "marcador": [6, 4] },
     { "fecha": "2026-11-19", "jugadores": ["juan-s", "juan-c"], "marcador": [6, 1] },
     { "fecha": "2026-11-19", "jugadores": ["johan", "adrian"], "marcador": [0, 6] },
