@@ -2,7 +2,8 @@ const http = require('node:http');
 const fs = require('node:fs');
 const path = require('node:path');
 const files = {
-  '/propuesta.html': ['propuesta.html', 'text/html; charset=utf-8'],
+  '/index.html': ['index.html', 'text/html; charset=utf-8'],
+  '/propuesta.html': ['index.html', 'text/html; charset=utf-8'],
   '/propuesta.js': ['propuesta.js', 'text/javascript; charset=utf-8'],
   '/torneo.json': ['torneo.json', 'application/json; charset=utf-8']
 };

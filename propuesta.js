@@ -176,7 +176,8 @@ async function iniciar() {
     location.replace('http://localhost:8765/propuesta.html');
     return;
   }
-  try{const response=await fetch('./torneo.json',{cache:'no-store'});if(!response.ok)throw new Error('HTTP '+response.status);cargar(await response.json());}
+  // Reutiliza la precarga del HTML. El servidor controla la vigencia mediante ETag.
+  try{const response=await fetch('./torneo.json');if(!response.ok)throw new Error('HTTP '+response.status);cargar(await response.json());}
   catch(error){el('data-status').textContent='No se pudo leer torneo.json: '+error.message;}
 }
 iniciar();
