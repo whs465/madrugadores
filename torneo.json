@@ -1,0 +1,62 @@
+{
+  "nombre": "Madrugadores",
+  "temporada": "Noviembre 2026",
+  "moneda": "COP",
+  "jugadorDestacado": "adrian",
+  "tarifasPorHora": { "campo": 32000, "caddie": 16000 },
+  "jugadores": [
+    { "id": "juan-s", "nombre": "Juan S" },
+    { "id": "danilo", "nombre": "Danilo" },
+    { "id": "pipe", "nombre": "Pipe" },
+    { "id": "juan-c", "nombre": "Juan C" },
+    { "id": "santi", "nombre": "Santi" },
+    { "id": "adrian", "nombre": "Adrián" },
+    { "id": "johan", "nombre": "Johan" },
+    { "id": "william", "nombre": "William" }
+  ],
+  "grupos": [
+    { "nombre": "Grupo 1", "jugadores": ["juan-s", "danilo", "pipe", "juan-c"] },
+    { "nombre": "Grupo 2", "jugadores": ["santi", "adrian", "johan", "william"] }
+  ],
+  "partidos": [
+    { "fecha": "2026-11-19", "jugadores": ["pipe", "danilo"], "marcador": [6, 4] },
+    { "fecha": "2026-11-19", "jugadores": ["juan-s", "juan-c"], "marcador": [6, 1] },
+    { "fecha": "2026-11-19", "jugadores": ["johan", "adrian"], "marcador": [0, 6] },
+    { "fecha": "2026-11-19", "jugadores": ["william", "santi"], "marcador": [3, 6] },
+    { "fecha": "2026-11-24", "jugadores": ["william", "adrian"], "marcador": [2, 6] },
+    { "fecha": "2026-11-24", "jugadores": ["juan-c", "pipe"], "marcador": [6, 1] }
+  ],
+  "reservas": [
+    {
+      "id": "jornada-19",
+      "fecha": "2026-11-19",
+      "canchas": 2,
+      "horas": 2,
+      "participantes": ["juan-s", "danilo", "pipe", "juan-c", "santi", "adrian", "johan", "william"],
+      "gastos": {
+        "campo": { "valor": 128000, "pagos": [{ "jugador": "adrian", "valor": 64000 }, { "jugador": "pipe", "valor": 64000 }] },
+        "caddie": { "valor": 64000, "pagos": [{ "jugador": "adrian", "valor": 28000 }, { "jugador": "pipe", "valor": 4000 }, { "jugador": "santi", "valor": 32000 }] }
+      }
+    },
+    {
+      "id": "reserva-24",
+      "fecha": "2026-11-24",
+      "canchas": 1,
+      "horas": 1,
+      "participantes": ["william", "adrian", "juan-c", "pipe"],
+      "gastos": {
+        "campo": { "valor": 32000, "pagos": [{ "jugador": "adrian", "valor": 32000 }] },
+        "caddie": { "valor": 16000, "pagos": [{ "jugador": "adrian", "valor": 16000 }] }
+      }
+    },
+    {
+      "id": "reserva-26",
+      "fecha": "2026-11-26",
+      "canchas": 1,
+      "horas": 1,
+      "participantes": [],
+      "gastos": { "campo": { "valor": 32000, "pagos": [{ "jugador": "adrian", "valor": 32000 }] } }
+    }
+  ],
+  "reembolsos": []
+}
