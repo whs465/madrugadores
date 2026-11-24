@@ -9,10 +9,10 @@ const files = {
 };
 http.createServer((req, res) => {
   const pathname = new URL(req.url, 'http://localhost').pathname;
-  const file = files[pathname === '/' ? '/propuesta.html' : pathname];
+  const file = files[pathname === '/' ? '/index.html' : pathname];
   if (!file) { res.writeHead(404); res.end('No encontrado'); return; }
   fs.readFile(path.join(__dirname, file[0]), (error, contents) => {
     res.writeHead(error ? 500 : 200, {'Content-Type': file[1], 'Cache-Control': 'no-store'});
     res.end(error ? 'No se pudo leer el archivo' : contents);
   });
-}).listen(8765, '127.0.0.1', () => console.log('Torneo: http://localhost:8765/propuesta.html'));
+}).listen(8765, '127.0.0.1', () => console.log('Torneo: http://localhost:8765/index.html'));

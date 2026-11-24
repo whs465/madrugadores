@@ -1,8 +1,8 @@
 # Cómo actualizar el torneo
 
-Los datos están en `torneo.json`. `propuesta.html` los muestra y `propuesta.js` calcula los saldos. No hay que editar el HTML para agregar información.
+Los datos están en `torneo.json`. `index.html` los muestra y `propuesta.js` calcula los saldos. No hay que editar el HTML para agregar información.
 
-Abre `abrir.cmd`: inicia el servidor local y abre http://localhost:8765/propuesta.html. El HTML carga siempre `torneo.json` automáticamente y sin caché. Después de editar el JSON, recarga la página. También puedes iniciar el servidor con `node servidor.cjs`.
+Abre `abrir.cmd`: inicia el servidor local y abre http://localhost:8765/index.html. El HTML carga siempre `torneo.json` automáticamente. Después de editar el JSON, recarga la página. También puedes iniciar el servidor con `node servidor.cjs`. La ruta anterior `/propuesta.html` sigue funcionando como compatibilidad.
 
 Puedes modificar los marcadores y asignar parejas en pantalla. El doble clic en **2026** del pie de página exporta el archivo actualizado; reemplaza tu `torneo.json` con esa descarga para conservar los cambios. El navegador no sobrescribe el archivo original automáticamente.
 

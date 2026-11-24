@@ -3,7 +3,7 @@ const vm = require('node:vm');
 const assert = require('node:assert/strict');
 const path = require('node:path');
 const read = name => fs.readFileSync(path.join(__dirname, name), 'utf8');
-const html = read('propuesta.html');
+const html = read('index.html');
 const elements = {};
 const document = {
   getElementById(id) {

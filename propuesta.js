@@ -173,7 +173,7 @@ el('download-year').onkeydown=e=>{
 };
 async function iniciar() {
   if(location.protocol==='file:') {
-    location.replace('http://localhost:8765/propuesta.html');
+    location.replace('http://localhost:8765/index.html');
     return;
   }
   // Reutiliza la precarga del HTML. El servidor controla la vigencia mediante ETag.

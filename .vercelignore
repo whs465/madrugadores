@@ -1,0 +1,9 @@
+# Desplegar solo los archivos del sitio estático.
+/*
+!index.html
+!propuesta.js
+!torneo.json
+!madrugadores.svg
+
+# Conservar la configuración de Vercel si se agrega más adelante.
+!vercel.json
