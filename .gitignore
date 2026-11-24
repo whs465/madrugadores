@@ -1,0 +1,32 @@
+# Configuración local y credenciales
+.vercel/
+.env
+.env.*
+!.env.example
+!.env.*.example
+.aws/
+
+# Dependencias, cachés y archivos generados
+node_modules/
+.cache/
+coverage/
+dist/
+out/
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Capturas de revisión
+vista-previa*.jpg
+vista-previa*.png
+
+# Editor y sistema operativo
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
