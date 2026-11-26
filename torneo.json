@@ -25,7 +25,8 @@
     { "fecha": "2026-11-19", "jugadores": ["johan", "adrian"], "marcador": [0, 6] },
     { "fecha": "2026-11-19", "jugadores": ["william", "santi"], "marcador": [3, 6] },
     { "fecha": "2026-11-24", "jugadores": ["william", "adrian"], "marcador": [2, 6] },
-    { "fecha": "2026-11-24", "jugadores": ["juan-c", "pipe"], "marcador": [6, 1] }
+    { "fecha": "2026-11-24", "jugadores": ["juan-c", "pipe"], "marcador": [6, 1] },
+    { "fecha": "2026-11-26", "jugadores": ["william", "johan"], "marcador": [6, 1] }
   ],
   "reservas": [
     {
